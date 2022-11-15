@@ -1,0 +1,1 @@
+assets ve form klasörleri temanın kendi klasörleri, burada yaptığın değişiklikler index.html'i de etkiler. Rar'ın orjinalini sakla, bozdukça yenilersin. İyice alış, bunu yaparsan her şeyi yaparsın.

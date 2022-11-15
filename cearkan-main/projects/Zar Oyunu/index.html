@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zar Oyunu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container p-5 d-flex justify-content-center">
+        <div class="row">
+          <div class="col-12">
+            <button class="btn btn--new w-100">Yeni Oyun</button>
+          </div>
+          <div class="col-6">
+            <section class="player player--0 player--active">
+              <h2 class="name text-center" id="name--0">1. Oyuncu</h2>
+              <p class="score" id="score--0">0</p>
+              <div class="current">
+                <p class="current-label">Zar</p>
+                <p class="current-score" id="current--0">0</p>
+              </div>
+            </section>
+          </div>
+          <div class="col-6">
+            <section class="player player--1">
+              <h2 class="name text-center" id="name--1">2. Oyuncu</h2>
+              <p class="score" id="score--1">0</p>
+              <div class="current">
+                <p class="current-label">Zar</p>
+                <p class="current-score" id="current--1">0</p>
+              </div>
+            </section>
+          </div>
+          <div class="row">
+            <div
+              class="col-12 d-flex flex-column justify-content-center align-items-center"
+            >
+              <img src="img/dice-1.png" alt="" class="dice mb-3" />
+              <button class="btn btn--roll w-100 mt-2" id="btnRoll">At</button>
+              <button class="btn btn--hold w-100 mt-2">Tut</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
